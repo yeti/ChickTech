@@ -1,0 +1,42 @@
+/*
+    HTML describes structure, CSS describes style.
+    This is what comments look like in CSS. You don't have to memorize how to write
+    comments in every language. Our smart text editors help us out. Just do Cmd + /
+    on a Mac or Ctrl + / on a PC and Sublime will insert a comment for you.
+*/
+
+/* 
+    How does CSS know what to style? It uses SELECTORS to apply itself to some HTML.
+    The simplest CSS selector is the element selector. It just applies itself to any
+    HTML element that has the matching tag. The body is our entire visible HTML doc,
+    so the entire page is blue now.
+ */
+body {
+    /*
+        Styles have attributes, and those attributes have values. Here the attribute
+        we are setting is the background color, and we are setting its value to blue.
+    */
+    background-color: blue;
+}
+
+/*
+    TODO: This page looks gross--let's fix that.
+    
+    1. Change the body's background color to anything you want. You can use words for 
+    a few common colors like blue and red, but you can also be more specific than that.
+    Google 'hexadecimal color picker' and get the exact shade you're looking for.
+
+    2. Change the font color and font style to anything you want. Set a different font 
+    color and size for your headers.
+
+    3. Center the content, and have it only take up a certain percentage width of the
+    screen.
+
+    Bonus: 
+    These element selectors aren't very specific. What if we want the <div> with
+    personal information to look different from the <div> that has workshop info? Try
+    adding HTML classes or IDs.
+
+    There are two parts to this: first, look up how to add a class or ID to an HTML element;
+    second, look up how to select that class or ID in your CSS so that you can style it.
+*/
